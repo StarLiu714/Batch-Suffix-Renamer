@@ -22,4 +22,8 @@ for name in old_names:
         if name[-3:] == str(old_type):
             os.rename(str(name), str(name[:-3]) + str(new_type))
             print(str(name) +' has been already renamed')
+    elif len(old_type) == 2:
+        if name[-2:] == str(old_type):
+            os.rename(str(name), str(name[:-2]) + str(new_type))
+            print(str(name) +' has been already renamed')
 
