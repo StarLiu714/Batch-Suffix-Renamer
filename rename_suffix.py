@@ -11,7 +11,7 @@ old_names = os.listdir('./')
 
 for name in old_names:
     l = len(old_type)
-    if l <= 5:
+    if l <= 7:
         if name[-l:] == str(old_type):
             os.rename(str(name), str(name[:-l]) + str(new_type))
             print(str(name) +' has been already renamed')
