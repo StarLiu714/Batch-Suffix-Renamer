@@ -23,4 +23,6 @@ Windows setting: show file extensions
 4. 检查您的文件后缀名是否已经更改成功
 
 祝您使用愉快！欢迎修改，欢迎批评指正~
+
+
 ![rename_suffix](https://user-images.githubusercontent.com/87756322/142389654-89176698-aa04-4a66-a908-c83b6cc594e8.JPG)
