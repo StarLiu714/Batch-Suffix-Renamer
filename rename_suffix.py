@@ -5,8 +5,8 @@
 import os,sys
 
 
-old_type = input('Please tap in the suffix you want to change (e.g: .webm, .mp4, .avi, .ts):')
-new_type = input('The suffix you want to change:')
+old_type = input('Please tap in the suffix you want to change (e.g: .webm, .mp4, .avi, .ts): ')
+new_type = input('The suffix would be changed into: ')
 old_names = os.listdir('./')
 
 for name in old_names:
