@@ -10,20 +10,8 @@ new_type = input('The suffix you want to change:')
 old_names = os.listdir('./')
 
 for name in old_names:
-    if len(old_type) == 5:
-        if name[-5:] == str(old_type):
-            os.rename(str(name), str(name[:-5]) + str(new_type))
+    l = len(old_type)
+    if l <= 5:
+        if name[-l:] == str(old_type):
+            os.rename(str(name), str(name[:-l]) + str(new_type))
             print(str(name) +' has been already renamed')
-    elif len(old_type) == 4:
-        if name[-4:] == str(old_type):
-            os.rename(str(name), str(name[:-4]) + str(new_type))
-            print(str(name) +' has been already renamed')
-    elif len(old_type) == 3:
-        if name[-3:] == str(old_type):
-            os.rename(str(name), str(name[:-3]) + str(new_type))
-            print(str(name) +' has been already renamed')
-    elif len(old_type) == 2:
-        if name[-2:] == str(old_type):
-            os.rename(str(name), str(name[:-2]) + str(new_type))
-            print(str(name) +' has been already renamed')
-
