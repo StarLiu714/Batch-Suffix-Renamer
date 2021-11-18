@@ -1,21 +1,21 @@
-## Batch-Suffix-Renamer
+# Batch-Suffix-Renamer
 A tool which easily change a series of file suffix for one time
-# Required environment
+## Required environment
 Python 3
 packages: os,sys
 Windows setting: show file extensions
-# Quick guide
+## Quick guide
 1. Put 'rename_suffix.py' under the path where you want to apply
 2. Double click to execute
 3. Follow the instruction in the prompt window (shown as the rename_suffix.JPG)
 4. Check if your files have been changed
 
-## 批量修改后缀名小工具
+# 批量修改后缀名小工具
 当您使用特定软件时，可能会对输入文件的后缀名有要求。比如，B站（bilibili.com)投稿上传工具仅支持部分视频格式。
 这个小工具可以为您提供一种便捷的批量改名方式。
-# 环境要求
+## 环境要求
 请确保已经安装python3或更高的版本，并预装os和sys库。Windows文件管理显示扩展名。
-# 快速指南
+## 快速指南
 1. 将“rename_suffix.py”放入需要执行的文件的同目录
 2. 双击以执行程序
 3. 根据提示输入转换前的文件后缀名、转出后缀名。
