@@ -1,5 +1,5 @@
 # Batch-Suffix-Renamer
-A tool which easily change a series of file suffix for one time
+A tool which changes a series of file suffix for one time
 ## Required environment
 Python 3
 packages: os,sys
