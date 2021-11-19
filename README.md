@@ -1,8 +1,8 @@
 # Batch-Suffix-Renamer
 A tool which changes a series of file suffix for one time
 ## Required environment
-Python 3
-packages: os,sys
+Python 3; 
+packages: os,sys; 
 Windows setting: show file extensions
 ## Quick guide
 1. Put 'rename_suffix.py' under the path where you want to apply
